@@ -18,9 +18,9 @@ import { Switch, Icon } from 'antd';
 
 ReactDOM.render(
   <div>
-    <Switch checkedChildren="开" unCheckedChildren="关" defaultChecked />
+    <Switch checkedChildren="正序" unCheckedChildren="倒序" defaultChecked />
     <br />
-    <Switch checkedChildren="1" unCheckedChildren="0" />
+    <Switch checkedChildren="1" unCheckedChildren="1" />
     <br />
     <Switch checkedChildren={<Icon type="check" />} unCheckedChildren={<Icon type="cross" />} defaultChecked />
   </div>
